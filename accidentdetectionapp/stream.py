@@ -81,13 +81,13 @@ def send_message():
     geoLoc = Nominatim(user_agent="GetLoc")
     g = geocoder.ip('me')
     locname = geoLoc.reverse(g.latlng)
-    account_sid = 'AC44faf901d3b67a3d78bc2e86172cf227'
-    auth_token = '1792fda1352f38b5c6c6debb49695379'
+    account_sid = '' #enter accound sid number
+    auth_token = '' #enter suth token number
     client = Client(account_sid, auth_token)
     client.messages.create(
                  body="Accident detected in "+"IFET College of Engineering https://goo.gl/maps/iYViWwEw1WNmPfwYA  ",
                  from_= '+12515720222',
-                 to= '+919361454677' )
+                 to= '' ) #enter phone number
 
 
 from django.core.mail import EmailMessage
