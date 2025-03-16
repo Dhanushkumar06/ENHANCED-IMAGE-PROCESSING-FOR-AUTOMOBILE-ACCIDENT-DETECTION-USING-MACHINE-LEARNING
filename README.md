@@ -1,4 +1,4 @@
-# ENHANCED-IMAGE-PROCESSING-FOR-AUTOMOBILE-ACCIDENT-DETECTION-USING-MACHINE-LEARNING
+# ENHANCED-IMAGE-PROCESSING-FOR-AUTOMOBILE-ACCIDENT-DETECTION-USING-DEEP-LEARNING
 Road accidents are a significant global concern, 
 often resulting in loss of life and property damage. Utilizing the 
 YOLO algorithm in an accident detection and reporting 
